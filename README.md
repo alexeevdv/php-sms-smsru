@@ -12,9 +12,9 @@ PHP package for sending SMS messages via sms.ru provider
 ## Usage
 
 ```php
-use alexeevdv\sms\SmsRu\Exception\Exception as SmsRuException;
-use alexeevdv\sms\SmsRu\PhoneNumber;
-use alexeevdv\sms\SmsRu\Provider;
+use alexeevdv\Sms\SmsRu\Exception\Exception as SmsRuException;
+use alexeevdv\Sms\SmsRu\PhoneNumber;
+use alexeevdv\Sms\SmsRu\Provider;
 
 $httpClient = new Psr18CompatibleHttpClient();
 $requestFactory = new Psr17CompatibleRequestFactory();

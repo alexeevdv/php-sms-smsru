@@ -9,7 +9,7 @@ install:
   - composer install --no-interaction
 
 script:
-  - vendor/bin/phpcs --standard=vendor/yiisoft/yii2-coding-standards/Yii2 --extensions=php src
+  - vendor/bin/phpcs --standard=PSR12 src
   - php vendor/bin/codecept run --coverage --coverage-xml
 
 after_success:
