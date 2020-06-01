@@ -1,0 +1,25 @@
+{
+    "name": "alexeevdv/php-sms-smsru",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmitry V. Alekseev",
+            "email": "mail@alexeevdv.ru"
+        }
+    ],
+    "require": {
+        "alexeevdv/php-sms-contracts": "^0.2.0",
+        "psr/http-client": "^1.0",
+        "psr/http-factory": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "alexeevdv\\Sms\\SmsRu\\": "src"
+        }
+    },
+    "require-dev": {
+        "codeception/codeception": "^4.1",
+        "codeception/module-asserts": "^1.2",
+        "guzzlehttp/psr7": "^1.6"
+    }
+}
